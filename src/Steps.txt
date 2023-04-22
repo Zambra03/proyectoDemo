@@ -1,0 +1,7 @@
+Pasos para ubir un proyecto al repositorio en git
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/Zambra03/ControlStock.git
+- git push -u origin main
