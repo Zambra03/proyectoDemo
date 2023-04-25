@@ -3,9 +3,9 @@ import Login from './views/Login';
 function App() {
 
   return (
-    <dev>
+    <div>
       <Login />
-    </dev>
+    </div>
   )
 }
 
