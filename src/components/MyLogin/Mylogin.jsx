@@ -1,11 +1,15 @@
 import React from 'react'
-import MyInput from './MyInput';
+import MyInput from '../MyProps/MyInput';
 const Mylogin = () => {
   return (
-    <div>
-        <MyInput label="Username:" name="username" type="username" style="label" style1="input input-username"/>
-        <MyInput label="Password:" name="password" type="password" style="label" style1="input input-password"/>
+    <>
+    <div className='inputbox'>
+      <MyInput label="Username:" type="username" />
     </div>
+    <div className='inputbox'>
+      <MyInput label="Password:" type="password" />
+    </div>
+    </>
   );
 }
 
